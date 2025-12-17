@@ -1,4 +1,5 @@
 const DOCUMENT = document.body.innerHTML;
+const TITLE = document.title;
 
 const SALT = 'A9f!zQ7#Lm2@xYp$R4tVwZ8&';
 const HASH = 'ec97fc44751308d53b5236bfd9b6875b2ef145f672a866c9b21974e9dc468e30';
@@ -17,6 +18,7 @@ async function checkPw() {
 
   if (has === HASH) {
     document.body.innerHTML = DOCUMENT;
+    document.title = TITLE;
   } else {
     alert("パスワードが違います！");
   }
