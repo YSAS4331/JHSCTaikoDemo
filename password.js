@@ -1,7 +1,7 @@
 const DOCUMENT = document.body.innerHTML;
 
 const SALT = 'A9f!zQ7#Lm2@xYp$R4tVwZ8&';
-const HASH = '347e3f0e20e1e6836692eca83432885f9c04ef15d319bdd4476a41327f7aa1f1';
+const HASH = 'ec97fc44751308d53b5236bfd9b6875b2ef145f672a866c9b21974e9dc468e30';
 
 async function makeHash(password, salt) {
   const buf = new TextEncoder().encode(password + salt);
