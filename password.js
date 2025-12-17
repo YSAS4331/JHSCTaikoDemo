@@ -24,7 +24,7 @@ async function checkPw() {
 
 document.body.innerHTML = `
   <p>パスワードを入力してください</p>
-  <input type="password" id="pw" placeholder="password">
+  <input type="text" id="pw" placeholder="password">
   <button onclick="checkPw()">送信</button>
 `;
 document.title = 'パスワードを入力';
