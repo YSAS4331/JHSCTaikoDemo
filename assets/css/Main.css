@@ -300,5 +300,6 @@ footer:hover {
 
   #searchBtn > label {
     display: none;
+    width: 34px;
   }
 }
