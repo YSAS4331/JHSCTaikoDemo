@@ -269,6 +269,9 @@ footer > .desc {
   align-self: end;
   margin-bottom: 0.2rem;
 }
+footer > *:first-child {
+  margin-top: 35px;
+}
 
 footer:hover {
   transform: translateY(0);
