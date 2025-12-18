@@ -297,4 +297,8 @@ footer:hover {
   .card {
     width: 90%;
   }
+
+  #searchBtn > label {
+    display: none;
+  }
 }
