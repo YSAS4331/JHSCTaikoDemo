@@ -298,9 +298,12 @@ footer:hover {
     width: 90%;
   }
 
-  #searchBtn > label {
-    display: none;
+  #searchBtn {
     width: 34px;
     min-width: 34px;
+  }
+
+  #searchBtn > label {
+    display: none;
   }
 }
