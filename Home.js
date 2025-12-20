@@ -17,8 +17,8 @@
     return `
       <div class="listItem">
         <a href="${video.url}" title="${video.title}" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/${getQueryParam(video.url, 'v')}/maxresdefault.jpg" alt="サムネイル画像" style="width: 100%; height: auto; aspect-ratio: 16/9"></a>
-        <label class="like">${video.likeCount}</label>
         <label class="view">${video.viewCount}</label>
+        <label class="like">${video.likeCount}</label>
       </div>
     `;
   }).join('');
