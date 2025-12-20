@@ -8,3 +8,14 @@
   --accentGrey: #7DD0F5;
   --accentBlack: #A6D1FF;
 }
+
+html.dark {
+  --bg: #2F3237;
+  --bgDot: #4A4D52;
+  --white: #3A3D42;
+  --grey: #C7C7C7;
+  --accent: #8CB8E8;
+  --accentGrey: #6AA7D8;
+  --accentBlack: #7FB0E0;
+  --fontSize: 16px;
+}
