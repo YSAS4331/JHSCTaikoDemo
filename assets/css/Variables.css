@@ -6,6 +6,7 @@
   --grey: #A7A7A7;
   --accent: #B7DAFF;
   --accentGrey: #7DD0F5;
+  --text:#191919 ;
   --accentBlack: #A6D1FF;
 }
 
@@ -17,5 +18,6 @@ html.dark {
   --accent: #8CB8E8;
   --accentGrey: #6AA7D8;
   --accentBlack: #7FB0E0;
+  --text: #f4f4f4;
   --fontSize: 16px;
 }
